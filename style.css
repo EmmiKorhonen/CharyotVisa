@@ -108,6 +108,24 @@ body {
     background: #403795;
 }
 
+.quiz-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+}
+
+.quiz-title {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.question-status {
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+
 .quiz-container {
     width: 480px;
 }
