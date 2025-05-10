@@ -26,13 +26,17 @@ const showQuizResult = () => {
     const scorePercent = (correctAnswerCount / numberOfQuestions) * 100;
 
     if (scorePercent === 100) {
-        feedback = "Sabumnim kyogne! 🏆";
+        feedback = "Täydellistä! Sabumnim kyogne! 👑";
     } else if (scorePercent >= 80) {
-        feedback = "Hienosti meni! 💪";
-    } else if (scorePercent >= 50) {
-        feedback = "Hyvä yritys! 👍";
+        feedback = "Loistava suoritus! Tekniikka jo hallussa! 🔥";
+    } else if (scorePercent >= 60) {
+        feedback = "Hyvä meininki, jatka samaan malliin! 🚀";
+    } else if (scorePercent >= 40) {
+        feedback = "Alkaa sujua! Nyt vain treeniä kehiin! 💪";
+    } else if (scorePercent >= 20) {
+        feedback = "Tästä on hyvä jatkaa eteenpäin! 🛠️";
     } else {
-        feedback = "Harjoitus tekee mestarin! 💡";
+        feedback = "Mestaritkin aloittavat jostain! 🌱";
     }
 
     const resultText = `<h2>Tuloksesi: ${correctAnswerCount} / ${numberOfQuestions}</h2><br>${feedback}`;
@@ -159,14 +163,9 @@ document.querySelectorAll(".category-option, .language-option").forEach(option =
     });
 })
 
-//Resetoi testi ja palaa testiasetusten kontaineriin
+//Resetoi testi
 const resetQuiz = () => {
-    correctAnswerCount = 0;
-    questionsIndexHistory.length = 0;
-    currentQuestionIndex = 0;
-    currentQuestion = null;
-    configContainer.style.display = "block";
-    resultContainer.style.display = "none";
+    location.reload(); // Lataa sivu uudelleen
 }
 
 nextQuestionBtn.addEventListener("click", renderQuestion);
