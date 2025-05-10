@@ -85,7 +85,7 @@ body {
 }
 
 .config-container .start-quiz-btn, 
-.quiz-footer .next-question-btn, 
+.quiz-footer .next-question-btn, .restart-btn, 
 .result-container .try-again-btn {
     color: #fff;
     border: none;
@@ -103,7 +103,7 @@ body {
 }
 
 .config-container .start-quiz-btn:hover, 
-.quiz-footer .next-question-btn:hover,
+.quiz-footer .next-question-btn:hover, .restart-btn:hover,
 .result-container .try-again-btn:hover {
     background: #403795;
 }
@@ -189,13 +189,14 @@ body {
     font-weight: 600;
 }
 
-.quiz-footer .next-question-btn {
+.quiz-footer .next-question-btn .restart-btn {
     display: inline-flex;
     gap: 5px;
     visibility: hidden;
     align-items: center;
     padding: 10px 17px;
 }
+
 
 .result-container {
     text-align: center;
