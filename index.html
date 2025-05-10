@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Charyot! | Taekwondo tietovisa</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@24,400,0,0" /><!--Ikonien linkki-->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!--Testiasetusten konteineri-->
+    <div class="config-container">
+        <h2 class="config-title">Charyot!</h2>
+
+        <!--Kategoriat-->
+        <div class="config-option">
+            <h4 class="option-title">Valitse vyöarvo</h4>
+            <div class="category-options">
+                <button class="category-option active">9.-8. kup</button>
+                <button class="category-option">7.-6. kup</button>
+                <button class="category-option">5.-4. kup</button>
+                <button class="category-option">3.-2. kup</button>
+                <button class="category-option">1. kup - 1. dan</button>
+                <button class="category-option">2.-3. dan</button>
+            </div>
+        </div>
+        <!--Kieli-->
+        <div class="config-option">
+            <h4 class="option-title">Valitse kieli</h4>
+            <div class="language-options">
+                <button class="language-option">Korea-Suomi</button>
+                <button class="language-option active">Suomi-Korea</button>
+            </div>
+        </div>
+        <button class="start-quiz-btn">Aloita</button>
+    </div>
+
+    <!--Testi konteineri-->
+    <div class="quiz-container">
+        <header class="quiz-header">
+            <h2 class="quiz-title">Charyot!</h2>
+        </header>
+
+        <div class="quiz-content">
+            <h1 class="question-text"></h1>
+            <ul class="answer-options"></ul>
+        </div>
+
+        <div class="quiz-footer">
+            <p class="question-status"></p>
+            <button class="next-question-btn">
+                Seuraava
+            </button>
+        </div>
+    </div>
+
+    <!--Tulos konteineri-->
+    <div class="result-container">
+        <img src="quiz-over.png" alt="Juhlistus emoji" class="result-img">
+        <h2 class="result-title"></h2>
+        <p class="result-message"></p>
+        <button class="try-again-btn">Takaisin alkuun</button><!--KEKSI TÄHÄN PAREMPI-->
+    </div>
+
+    <script src="javascript/questions_ks.js"></script> <!--Korea-Suomi-->
+    <script src="javascript/questions_sk.js"></script> <!--Suomi-Korea-->
+    <script src="javascript/script.js"></script>
+
+</body>
+</html>
