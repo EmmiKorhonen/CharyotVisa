@@ -31,7 +31,7 @@ const questions_sk = [
         correctAnswer: 0,
       },
       {
-        question: "Etu potku",
+        question: "Etupotku",
         options: ["Ap chagi", "Huryo chagi", "Dollyo chagi", "Naeryo chagi"],
         correctAnswer: 0,
       },
