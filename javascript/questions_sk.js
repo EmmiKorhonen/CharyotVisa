@@ -352,7 +352,7 @@ const questions_sk = [
   },
 
   {
-    category: "1. kup - 1. dan",
+    category: "1. kup -1. dan",
     questions: [
       {
         question: "Hyppytakakiertopotku",
