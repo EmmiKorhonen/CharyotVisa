@@ -352,7 +352,7 @@ const questions_ks = [
   },
 
   {
-    category: "1. kup - 1. dan",
+    category: "1. kup -1. dan",
     questions: [
       {
         question: "Twio mom dollyo huryo chagi",
