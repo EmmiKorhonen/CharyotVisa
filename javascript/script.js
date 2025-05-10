@@ -169,5 +169,6 @@ const resetQuiz = () => {
 }
 
 nextQuestionBtn.addEventListener("click", renderQuestion);
-document.querySelector(".try-again-btn").addEventListener("click", resetQuiz);
 document.querySelector(".start-quiz-btn").addEventListener("click", startQuiz);
+document.querySelector(".try-again-btn").addEventListener("click", resetQuiz);
+document.querySelector(".restart-btn").addEventListener("click", resetQuiz);
