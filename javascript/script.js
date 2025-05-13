@@ -141,7 +141,6 @@ const startQuiz = () => {
 
     //Päivitä valittu kategoria
     quizCategory = configContainer.querySelector(".category-option.active").textContent;
-    //numberOfQuestions = parseInt(configContainer.querySelector(".question-option.active").textContent);
 
     renderQuestion();
 }
