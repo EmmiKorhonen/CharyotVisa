@@ -1,6 +1,3 @@
-// Array of questions grouped by category (25 questions each)
-//MUOKKAA TÄNNE KAIKKI KYSYMYKSET JA VAIHTOEHDOT!!!!!
-
 const questions_sk = [
   {
     category: "9.-8. kup",
@@ -8,7 +5,7 @@ const questions_sk = [
       {
         question: "Pitkä seisonta",
         options: ["Ap kubi", "Ap seogi", "Juchum seogi", "Dwi kubi"],
-        correctAnswer: 0, //NUMERO INDIKOI, MIKÄ VASTAUS ON OIKEIN!!! LASKU ALLAA NUMEROSTA NOLLA (0)
+        correctAnswer: 0,
       },
       {
         question: "Lyhyt seisonta",
