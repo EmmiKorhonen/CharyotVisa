@@ -398,7 +398,7 @@ const questions_ks = [
       },
       {
         question: "Agwison khaljaebi",
-        options: ["Lyönti kurkkuun", "Irtautumistekniikka", "Pieni sarana", "Lyönti kurkkuun"],
+        options: ["Lyönti kurkkuun", "Irtautumistekniikka", "Pieni sarana", "Tartuntaisku alas"],
         correctAnswer: 0,
       },
       {
@@ -530,3 +530,4 @@ const questions_ks = [
     ],
   },
 ];
+
